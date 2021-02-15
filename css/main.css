@@ -49,7 +49,7 @@ body{
 
 /* Hover */
 .pattern1:hover .baloon{
-display: block;
+   display: block;
 }
 
 /* Baloon */
@@ -70,6 +70,7 @@ display: block;
 .pattern1:hover .air-baloon{
     display: block;
 }
+/* Fine caratterisitche-baloon */
 
 /* Bicycle */
 .bicycle{
@@ -78,11 +79,20 @@ display: block;
     background-size: contain;
 }
 
+.pattern1:hover .bicycle{
+    display: block;
+    }
+
 /* Caratteristiche-bici */
 .bici{
     font-size: 30px;
     color: green;
     text-align: center;
+}
+
+
+.pattern1:hover .bici{
+    display: block;
 }
 
 /* Nave */
@@ -139,4 +149,10 @@ display: block;
     font-size: 30px;
     color: turquoise;
     text-align: center;
+}
+
+
+footer p{
+    text-align: center;
+    font-size: 25px;
 }
