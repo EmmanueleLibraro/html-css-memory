@@ -9,6 +9,11 @@ body{
     background-color: dodgerblue;
 }
 
+/* Container */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
 
 /* Titolo */
 .titolo{
@@ -18,15 +23,23 @@ body{
     margin-bottom: 50px;
 }
 
+/* Clearfix */
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* Immagine1 */
 .pattern1{
-    display: inline-block;
+    /* display: inline-block; */
     background-image: url(../img/pattern.png);
     width: 200px;
     height: 250px;
     border-radius: 15px;
     background-size: contain;
     margin-left: 50px;
+    float: left;
 }
    
 /* Baloon */
@@ -37,7 +50,7 @@ body{
 }
 
 /* Cratteristiche-baloon */
-.air-baloon:{
+.air-baloon{
     font-size: 30px;
     color: darkorchid;
     text-align: center;
@@ -82,5 +95,33 @@ body{
 .sottomarino-text{
     font-size: 30px;
     color: firebrick;
+    text-align: center;
+}
+
+/* Trattore */
+.tractor{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+/* Descrizione-trattore */
+.tractor-text{
+    font-size: 30px;
+    color: rgb(243, 139, 139);
+    text-align: center;
+}
+
+/* Tram */
+.tram{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+/* Descrizione-tram */
+.tram-text{
+    font-size: 30px;
+    color: turquoise;
     text-align: center;
 }
