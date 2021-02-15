@@ -21,12 +21,15 @@ body{
 .immagine1{
     background-image: url(../img/pattern.png);
     width: 200px;
-    height: 200px;
+    height: 250px;
+    border-radius: 5px;
+    background-size: contain;
+    margin-left: 50px;
 }
    
 
-/* Hover */
+/* Hover
 .hover div:hover{
 
 
-}
+} */
