@@ -16,3 +16,9 @@ body{
     font-size: 40px;
     padding-top: 30px;
 }
+
+/* Immagine1 */
+.immagine1{
+    width: 200px;
+    height: 100px;
+}
