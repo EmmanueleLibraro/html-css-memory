@@ -19,6 +19,14 @@ body{
 
 /* Immagine1 */
 .immagine1{
+    background-image: url(../img/pattern.png);
     width: 200px;
-    height: 100px;
+    height: 200px;
+}
+   
+
+/* Hover */
+.hover div:hover{
+
+
 }
