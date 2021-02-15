@@ -6,4 +6,13 @@
 
 body{
     font-family: 'Nerko One', cursive, sans-serif;
+    background-color: dodgerblue;
+}
+
+
+/* Titolo */
+.titolo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
 }
