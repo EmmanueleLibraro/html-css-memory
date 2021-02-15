@@ -32,7 +32,6 @@ body{
 
 /* Immagine1 */
 .pattern1{
-    /* display: inline-block; */
     background-image: url(../img/pattern.png);
     width: 200px;
     height: 250px;
@@ -42,12 +41,22 @@ body{
     float: left;
     margin-bottom: 20px;
 }
-   
+
+.pattern1:hover{
+    background-image: none;
+    background-color: white;
+}
+
+/* Hover */
+.pattern1:hover .baloon{
+display: block;
+}
+
 /* Baloon */
 .baloon{
     width: 200px;
     height: 200px;
-    background-size: contain;
+    display: none;
 }
 
 /* Cratteristiche-baloon */
@@ -55,6 +64,11 @@ body{
     font-size: 30px;
     color: darkorchid;
     text-align: center;
+    display: none;
+}
+
+.pattern1:hover .air-baloon{
+    display: block;
 }
 
 /* Bicycle */
