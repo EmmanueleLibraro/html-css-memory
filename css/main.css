@@ -15,17 +15,18 @@ body{
     text-align: center;
     font-size: 40px;
     padding-top: 30px;
+    margin-bottom: 50px;
 }
 
 /* Immagine1 */
 .pattern1{
+    display: inline-block;
     background-image: url(../img/pattern.png);
     width: 200px;
     height: 250px;
     border-radius: 15px;
     background-size: contain;
     margin-left: 50px;
-    /* display: none; */
 }
    
 /* Baloon */
@@ -35,8 +36,51 @@ body{
     background-size: contain;
 }
 
-.air-baloon{
+/* Cratteristiche-baloon */
+.air-baloon:{
     font-size: 30px;
     color: darkorchid;
+    text-align: center;
+}
+
+/* Bicycle */
+.bicycle{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+/* Caratteristiche-bici */
+.bici{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+/* Nave */
+.ship{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+/* Caratteristiche-nave */
+.ship-name{
+    font-size: 30px;
+    color: rgb(134, 134, 59);
+    text-align: center;
+}
+
+/* Sottomarino */
+.submarine{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+}
+
+/* Descrizione-sottomarino */
+.sottomarino-text{
+    font-size: 30px;
+    color: firebrick;
     text-align: center;
 }
